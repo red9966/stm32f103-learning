@@ -1,0 +1,17 @@
+# 构建产物
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+# IDE 本地文件
+.settings/
+.mxproject
+*.launch
+# 系统
+Thumbs.db
+.DS_Store
