@@ -1,17 +1,30 @@
-# 构建产物
-Debug/
-Release/
+# ---- Keil MDK ----
+Objects/
+Listings/
+*.uvguix.*
+*.bak
+*.dep
+*.crf
 *.o
 *.d
+*.axf
+*.lnp
+*.htm
+*.build_log.htm
+*.scvd
+JLinkLog.txt
+# ---- STM32CubeIDE ----
+Debug/
+Release/
 *.elf
 *.bin
 *.hex
 *.map
 *.list
-# IDE 本地文件
 .settings/
 .mxproject
 *.launch
-# 系统
+# ---- 系统 / 编辑器 ----
 Thumbs.db
 .DS_Store
+.vscode/
