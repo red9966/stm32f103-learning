@@ -54,7 +54,7 @@ GPIO_SetBits(GPIOA,GPIO_Pin_0);
 void LED_1_ON(void)
 {
 
-GPIO_ResetBits(GPIOA,GPIO_Pin_1);
+GPIO_ResetBits(GPIOA,GPIO_Pin_3);
 
 }
 
@@ -62,6 +62,6 @@ GPIO_ResetBits(GPIOA,GPIO_Pin_1);
 void LED_1_OFF(void)
 {
 
-GPIO_SetBits(GPIOA,GPIO_Pin_1);
+GPIO_SetBits(GPIOA,GPIO_Pin_3);
 
 }
